@@ -1,6 +1,12 @@
 package com.sunnyweather.android.db;
 
+<<<<<<< HEAD
 public class City {
+=======
+import org.litepal.crud.DataSupport;
+
+public class City extends DataSupport {
+>>>>>>> 6eeb3ab (text)
     private int id;
     private String cityName;
     private int cityCode;
